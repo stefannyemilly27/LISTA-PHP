@@ -8,27 +8,28 @@
 <body>
     <h1>Soma</h1>
     <h2> 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma. </h2>
-    <form action="" method="GET">
-    <label>Digite o seu primeiro número:</label>
-    <input type="number" name="n1" step="any" required><br><br>
 
-    <label>Digite o seu segundo número:</label>
-    <input type="number" name="n2" step="any" required><br><br>
 
-    <button type="submit">enviar</button>
-    </form>
+<form action="" method="GET">
+<label>Digite o seu primeiro número:</label>
+<input type="number" name="n1" step="any" required><br><br>
 
-    <?php
+<label>Digite o seu segundo número:</label>
+<input type="number" name="n2" step="any" required><br><br>
 
-    $soma = 0;
+<button type="submit">somar</button>
+</form>
 
-    if(isset($_GET['n1']) && isset($_GET['n2'])){
-        $n1 = (float)$_GET['n1'];
-        $n2 = (float)$_GET['n2'];
-        $soma = $n1 + $n2;
+<?php
+$soma = 0;
 
-        }
-        echo "<h2>Soma: $soma</h2>"
-    ?>
+if(isset($_GET['n1']) && isset($_GET['n2'])){
+    $n1 = (float)$_GET['n1'];
+    $n2 = (float)$_GET['n2'];
+    $soma = $n1 + $n2;
+
+    echo "<h2>Soma: $soma</h2>";
+}
+?>
 </body>
 </html>

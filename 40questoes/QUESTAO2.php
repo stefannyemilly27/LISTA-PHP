@@ -12,9 +12,11 @@ números lidos.</h2>
 <form action="" method="GET">
     <label>Digite o seu primeiro número:</label>
     <input type="number" name="n1" step="any" required><br><br>
+
     <label>Digite o seu segundo número:</label>
     <input type="number" name="n2" step="any" required><br><br>
-    <button type="submit">enviar</button>
+
+    <button type="submit">calcular</button>
 </form>
 
 <?php
