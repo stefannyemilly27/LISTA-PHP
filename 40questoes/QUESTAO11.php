@@ -30,7 +30,7 @@ if (isset($_GET['custo']) && isset($_GET['acrescimo'])){
     $valorfinal = $custo + ($custo * $acrescimo / 100);  
 
     echo "<br><hr>";
-    echo "<h2>Valor de venda: $valorfinal</h2>";
+    echo "<h2>Valor de venda: R$ $valorfinal</h2>";
 }
 ?>
 </body>

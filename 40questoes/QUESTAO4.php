@@ -10,15 +10,21 @@
     <h2>Escrever um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no
 mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o
 seu nome, o salário fixo e salário no final do mês.</h2>
+
+
 <form action="" method="GET">
 <label>Digite o nome do vendedor:</label>
 <input type="text" name="vendedor" required><br><br>
+
 <label>Digite o salário fixo:</label>
 <input type="number" name="fixo" step="any" required><br><br>
+
 <label>Digite o total de vendas efetuadas no mês:</label>
 <input type="number" name="vendas" step="any" required><br><br>
+
 <button type="submit">calcular</button>
 </form>
+
 
 <?php
 if (isset($_GET['vendedor']) && isset($_GET['fixo']) && isset($_GET['vendas'])) {

@@ -15,7 +15,7 @@ F = C x 1,8 + 32, sendo F a temperatura em Fahrenheit e C a temperatura em Celsi
 <label>Digite a temperatura em graus Celsius:</label>
 <input type="number" name="celsius" step="any" required><br><br>
 
-<button type="submit">conversão</button>
+<button type="submit">converter</button>
 </form>
 
 
